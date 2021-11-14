@@ -1,4 +1,6 @@
 # 50 Days of JavaScript🔥
 
-![Javascript](https://user-images.githubusercontent.com/70385488/141609680-452ea3e6-989d-4620-8f49-dba63112a2b1.png)
+<div align="center">
+<a href="https://codedamn.com/50-days-of-js"><img src="https://user-images.githubusercontent.com/64855541/141643232-35ba903e-2ea4-40a4-93e0-b756c36104b8.png" alt="50 days of JS banner"></a>
+</div>
 
