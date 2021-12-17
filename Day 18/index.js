@@ -1,20 +1,16 @@
 const totalGrains = () => {
     // Code here
-    let startingPoint = 0
-    let totalGrains = 0
-
-    while(startingPoint < 64){
-        totalGrains += Math.pow(2, startingPoint)
-        startingPoint++
+    let ans = BigInt(0);
+    for(let i =0;i<64;i++)
+    {
+        ans += BigInt(2**i);
     }
-
-    return totalGrains
+	return ans;
 }
 
 const grainsOn = (input) => {
-    // Code here
-
-    return Math.pow(2, input-1)
+	// Code here
+	return BigInt(2**(input-1));
 }
 
 console.log(`Grains on 5th square: ${grainsOn(5)}`)
